@@ -7,3 +7,7 @@ variable "private_key_filename" {
 variable "ssh_key_name" {
   description = "AWS key pair name that will be created"
 }
+
+variable "region" {
+  description = "AWS Region"
+}
